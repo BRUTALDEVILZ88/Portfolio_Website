@@ -1,0 +1,69 @@
+/* Your existing CSS styles can be applied here */
+
+/* Additional styles for contact form */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+       
+  }
+  
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(13, 43, 190);
+}
+nav ul{
+ display: flex;
+ justify-content: space-evenly;
+ font-size: 1.5rem;
+}
+nav ul li{
+   
+    list-style: none;
+    margin: 0 100px;
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+nav ul li a:hover{
+    color: rgb(69, 72, 234);
+    font-size: 1.04rem;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
